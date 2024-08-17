@@ -426,6 +426,7 @@
 		slidesPerView: 1,
 		spaceBetween: 0,
 		loop: true,
+		noSwiping: true,
 		autoplay: {
 			enabled: true,
 			delay: 6000
