@@ -365,8 +365,48 @@
               </div>
             </div>
             <!-- Column -->
-            <div class="column col-lg-6 col-md-12 col-sm-12 d-none">
-              <div class="default-form contact-form">
+            <div class="column col-lg-6 col-md-12 col-sm-12">
+              <!--  -->
+              <h2 class="sec-title_title">Embed Klavyio Here</h2>
+              <div class="klaviyo-form-U7P7Sk"></div>
+
+              <!-- Example: Paste the Klaviyo form embed code here -->
+              <div id="klaviyo-form-container">
+                <!-- Klaviyo Form Embed Code -->
+                <script
+                  type="text/javascript"
+                  src="https://www.klaviyo.com/embed/U7P7Sk.js"
+                ></script>
+              </div>
+
+              <!-- Begin Klaviyo Signup Form -->
+              <div class="klaviyo-form-U7P7Sk"></div>
+              <script type="text/javascript">
+                (function () {
+                  var loadKlaviyoScript = function () {
+                    if (
+                      window.klaviyoScripts &&
+                      window.klaviyoScripts.includes("forms")
+                    ) {
+                      return;
+                    }
+                    var script = document.createElement("script");
+                    script.type = "text/javascript";
+                    script.async = true;
+                    script.src =
+                      "https://static.klaviyo.com/onsite/js/forms.js";
+                    var head = document.getElementsByTagName("head")[0];
+                    head.appendChild(script);
+                    window.klaviyoScripts = window.klaviyoScripts || [];
+                    window.klaviyoScripts.push("forms");
+                  };
+                  loadKlaviyoScript();
+                })();
+              </script>
+              <!-- End Klaviyo Signup Form -->
+
+              <!--  -->
+              <div class="default-form contact-form d-none">
                 <form method="post" action="sendemail.php" id="contact-form">
                   <div class="row clearfix">
                     <!--Form Group-->
