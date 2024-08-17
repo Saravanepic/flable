@@ -27,6 +27,7 @@
 .main-footer .widgets-section{
 	position: relative;
 	padding: 190px 0px 70px;
+	display: none;
 }
 
 .main-footer .footer-upper-box{
