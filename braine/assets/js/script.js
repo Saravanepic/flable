@@ -421,6 +421,7 @@
 
 
 	
+	
 	// Main Slider
 	var slider = new Swiper('.main-slider', {
 		slidesPerView: 1,
@@ -429,7 +430,7 @@
 		noSwiping: true,
 		autoplay: {
 			enabled: true,
-			delay: 6000
+			delay: 60000
 		},
 		// Navigation arrows
 		navigation: {
