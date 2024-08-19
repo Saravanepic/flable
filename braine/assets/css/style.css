@@ -5839,6 +5839,7 @@
 .solution-one_list li i{
 	position: relative;
 	width: 22px;
+	min-width: 22px;
 	height: 22px;
 	font-size: 10px;
 	line-height: 22px;
