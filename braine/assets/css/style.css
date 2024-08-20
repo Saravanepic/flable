@@ -7885,6 +7885,11 @@
     color: #ffff;
 }
 
+/* Logo CSS */
+.footer-logo img,
+.logo-box img{
+	max-width: 200px;
+}
 
 
 /* Mobile */
@@ -7919,12 +7924,11 @@
 	.choose-one .inner-container {
 		padding: 20px 15px;
 	}
+	.footer-logo img,
+	.logo-box img{
+		max-width: 150px;
+	}
 	
 }
 
 
-/* Logo CSS */
-.footer-logo img,
-.logo-box img{
-	max-width: 200px;
-}
