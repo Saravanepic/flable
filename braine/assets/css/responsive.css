@@ -762,7 +762,7 @@
 	}
 
 	.page-title{
-		padding: 100px 0px 100px;
+		padding: 50px 0px 50px;
 	}
 
 	.team-detail_image{
@@ -780,7 +780,6 @@
 	.main-header .mobile-nav-toggler{
 		margin-left: 12px;
 	}
-
 }
 
 @media only screen and (max-width: 599px){
