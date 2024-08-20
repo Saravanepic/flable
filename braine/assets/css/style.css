@@ -7921,3 +7921,10 @@
 	}
 	
 }
+
+
+/* Logo CSS */
+.footer-logo img,
+.logo-box img{
+	max-width: 200px;
+}
