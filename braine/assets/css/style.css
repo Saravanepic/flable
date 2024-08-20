@@ -7932,3 +7932,11 @@
 }
 
 
+.social_icon-box img{
+	max-width: 166px;
+    max-height: 116px;
+    object-fit: contain;
+}
+.social-one_logo img {
+    max-width: 150px;
+}
