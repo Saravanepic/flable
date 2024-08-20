@@ -935,3 +935,31 @@
 	});	
 
 })(window.jQuery);
+
+// js for pricng
+jQuery(document).ready(function() {
+    // Function to update the active class based on selection
+    function updateActivePlan() {
+      var selectedPlan = jQuery('#revenue-plan').val();
+
+      // Remove active class from all blocks
+      jQuery('.price-block_one').removeClass('active');
+
+      // Add active class to the selected plan
+      if (selectedPlan === 'starter') {
+        jQuery('#starter-plan').addClass('active');
+      } else if (selectedPlan === 'professional') {
+        jQuery('#professional-plan').addClass('active');
+      } else if (selectedPlan === 'enterprise') {
+        jQuery('#enterprise-plan').addClass('active');
+      }
+    }
+
+    // Initialize by setting the active class to the default selected option
+    updateActivePlan();
+
+    // Update active class when dropdown selection changes
+    jQuery('#revenue-plan').on('change', function() {
+      updateActivePlan();
+    });
+  });

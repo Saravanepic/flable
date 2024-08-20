@@ -290,11 +290,11 @@
       <!-- End Page Title -->
 
       <!-- Price Four -->
-      <section class="price-four">
+      <!-- <section class="price-four">
         <div class="auto-container">
-          <div class="row clearfix">
+          <div class="row clearfix"> -->
             <!-- Price Block One -->
-            <div class="price-block_one col-lg-4 col-md-6 col-sm-12">
+            <!-- <div class="price-block_one col-lg-4 col-md-6 col-sm-12">
               <div class="price-block_one-inner">
                 <div class="price-block_one-title">Starter</div>
                 <div class="price-block_one-subtitle">
@@ -335,10 +335,10 @@
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <!-- Price Block One -->
-            <div class="price-block_one active col-lg-4 col-md-6 col-sm-12">
+            <!-- <div class="price-block_one active col-lg-4 col-md-6 col-sm-12">
               <div class="price-block_one-inner">
                 <div
                   class="price-one_stars"
@@ -385,10 +385,10 @@
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <!-- Price Block One -->
-            <div class="price-block_one col-lg-4 col-md-6 col-sm-12">
+            <!-- <div class="price-block_one col-lg-4 col-md-6 col-sm-12">
               <div class="price-block_one-inner">
                 <div class="price-block_one-title">Enterprise</div>
                 <div class="price-block_one-subtitle">
@@ -432,9 +432,102 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Price Four -->
-
+      <section class="price-four">
+        <div class="auto-container">
+          <!-- Dropdown for selecting the revenue plan -->
+          <div class="revenue-select">
+            <label for="revenue-plan">Choose Revenue Plan:</label>
+            <select id="revenue-plan">
+              <option value="starter">Starter</option>
+              <option value="professional" selected>Professional</option>
+              <option value="enterprise">Enterprise</option>
+            </select>
+          </div>
+      
+          <div class="row clearfix">
+            <!-- Price Block One -->
+            <div class="price-block_one col-lg-4 col-md-6 col-sm-12" id="starter-plan">
+              <div class="price-block_one-inner">
+                <div class="price-block_one-title">Starter</div>
+                <div class="price-block_one-subtitle">Up to 2,000 words / mo</div>
+                <div class="price-block_one-content">
+                  <div class="d-flex justify-content-between align-items-end flex-wrap">
+                    <div class="price-block_one-price">
+                      <sup>$</sup>3<sub>/mo</sub>
+                    </div>
+                    <div class="price-block_one-text">*Get Braine tailored</div>
+                  </div>
+                  <div class="price-block_one-button">
+                    <a class="template-btn price-one_button" href="#">Start 1 month free trial</a>
+                  </div>
+                  <ul class="price-block_one-list">
+                    <li><i class="fa-solid fa-check fa-fw"></i>Up to 10,000 words</li>
+                    <li><i class="fa-solid fa-check fa-fw"></i>Access to basic tools</li>
+                    <li><i class="fa-solid fa-check fa-fw"></i>Access to AI copywriting tools</li>
+                    <li><i class="fa-solid fa-check fa-fw"></i>Email support only</li>
+                    <li><i class="fa-solid fa-check fa-fw"></i>Advance 700+ tools</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Price Block Two -->
+            <div class="price-block_one col-lg-4 col-md-6 col-sm-12" id="professional-plan">
+              <div class="price-block_one-inner">
+                <div class="price-one_stars" style="background-image: url(assets/images/icons/price-stars.png);"></div>
+                <div class="price-block_one-title">Professional</div>
+                <div class="price-block_one-subtitle">Up to 10,000 words / mo</div>
+                <div class="price-block_one-content">
+                  <div class="d-flex justify-content-between align-items-end flex-wrap">
+                    <div class="price-block_one-price">
+                      <sup>$</sup>9<sub>/mo</sub>
+                    </div>
+                    <div class="price-block_one-text">*Get Braine tailored</div>
+                  </div>
+                  <div class="price-block_one-button">
+                    <a class="template-btn price-one_button" href="#">Start 1 month free trial</a>
+                  </div>
+                  <ul class="price-block_one-list">
+                    <li><i class="fa-solid fa-check fa-fw"></i>Up to 10,000 words</li>
+                    <li><i class="fa-solid fa-check fa-fw"></i>Access to basic tools</li>
+                    <li><i class="fa-solid fa-check fa-fw"></i>Access to AI copywriting tools</li>
+                    <li><i class="fa-solid fa-check fa-fw"></i>Email support only</li>
+                    <li><i class="fa-solid fa-check fa-fw"></i>Advance 700+ tools</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Price Block Three -->
+            <div class="price-block_one col-lg-4 col-md-6 col-sm-12" id="enterprise-plan">
+              <div class="price-block_one-inner">
+                <div class="price-block_one-title">Enterprise</div>
+                <div class="price-block_one-subtitle">Up to 10,000 words / mo</div>
+                <div class="price-block_one-content">
+                  <div class="d-flex justify-content-between align-items-end flex-wrap">
+                    <div class="price-block_one-price">
+                      <sup>$</sup>18<sub>/mo</sub>
+                    </div>
+                    <div class="price-block_one-text">*Get Braine tailored</div>
+                  </div>
+                  <div class="price-block_one-button">
+                    <a class="template-btn price-one_button" href="#">Start 1 month free trial</a>
+                  </div>
+                  <ul class="price-block_one-list">
+                    <li><i class="fa-solid fa-check fa-fw"></i>Up to 10,000 words</li>
+                    <li><i class="fa-solid fa-check fa-fw"></i>Access to basic tools</li>
+                    <li><i class="fa-solid fa-check fa-fw"></i>Access to AI copywriting tools</li>
+                    <li><i class="fa-solid fa-check fa-fw"></i>Email support only</li>
+                    <li><i class="fa-solid fa-check fa-fw"></i>Advance 700+ tools</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Video One -->
       <section class="video-one">
         <div class="video-one_image">

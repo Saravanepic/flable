@@ -7850,3 +7850,34 @@
 .language-dropdown{
 	display: none;
 }
+.revenue-select{
+	padding-bottom: 50px;
+    text-align: center;
+    display: inline-grid;
+}
+.revenue-select label{
+	position: relative;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 1em;
+    color: var(--white-color);
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+	margin-bottom: 20px;
+}
+.revenue-select select{
+	cursor: pointer;
+    background-color: #1e2530;
+    border-radius: 200px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    overflow: hidden;
+    padding: 15px;
+    color: #ffff;
+}
